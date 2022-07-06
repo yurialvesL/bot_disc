@@ -8,6 +8,7 @@ token = os.getenv('token_ds_etios')  # aqui vai o token do bot(criei uma variáv
 def load_cogs(bot):
     bot.load_extension('manager')
     bot.load_extension('tasks.dates')
+    bot.load_extension('tasks.Apontamento')
     for file in os.listdir('commands'):
         if file.endswith('.py'):
             cog = file[:-3]
