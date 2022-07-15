@@ -26,7 +26,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/dancagatinho.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/dancagatinho.mp3"))
                 while self.bot.is_playing():
                     sleep(5)
                 await self.bot.disconnect()
@@ -44,7 +44,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/ai.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/ai.mp3"))
                 while self.bot.is_playing():
                     sleep(5)
                 await self.bot.disconnect()
@@ -62,7 +62,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/aigostei.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/aigostei.mp3"))
                 while self.bot.is_playing():
                     sleep(5)
                 await self.bot.disconnect()
@@ -80,7 +80,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/aimamae.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/aimamae.mp3"))
                 while self.bot.is_playing():
                     sleep(7)
                 await self.bot.disconnect()
@@ -98,7 +98,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/brincadeira.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/brincadeira.mp3"))
                 while self.bot.is_playing():
                     sleep(5)
                 await self.bot.disconnect()
@@ -116,7 +116,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/cavalo.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/cavalo.mp3"))
                 while self.bot.is_playing():
                     sleep(5)
                 await self.bot.disconnect()
@@ -134,7 +134,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/chega.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/chega.mp3"))
                 while self.bot.is_playing():
                     sleep(5)
                 await self.bot.disconnect()
@@ -152,7 +152,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/elegosta.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/elegosta.mp3"))
                 while self.bot.is_playing():
                     sleep(5)
                 await self.bot.disconnect()
@@ -170,7 +170,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/queisso.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/queisso.mp3"))
                 while self.bot.is_playing():
                     sleep(6)
                 await self.bot.disconnect()
@@ -190,7 +190,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/semgraca.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/semgraca.mp3"))
                 while self.bot.is_playing():
                     sleep(6)
                 await self.bot.disconnect()
@@ -208,7 +208,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/som.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/som.mp3"))
                 while self.bot.is_playing():
                     sleep(5)
                 await self.bot.disconnect()
@@ -226,7 +226,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/tome.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/tome.mp3"))
                 while self.bot.is_playing():
                     sleep(4)
                 await self.bot.disconnect()
@@ -244,7 +244,7 @@ class Faro(commands.Cog):
             if voice_channel is not None:
                 channel = voice_channel.name
                 self.bot = await voice_channel.connect()
-                self.bot.play(discord.FFmpegPCMAudio(executable=ffmpeg, source="faro/ui.mp3"))
+                self.bot.play(discord.FFmpegPCMAudio(executable='ffmpeg/bin/ffmpeg.exe', source="faro/ui.mp3"))
                 while self.bot.is_playing():
                     sleep(5)
                 await self.bot.disconnect()
